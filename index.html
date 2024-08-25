@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Box Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mystery Box Geek</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#plans">Planos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2 class="Descubra">Descubra a Surpresa!</h2>
+            <p>Assine e receba mensalmente uma caixa recheada de produtos geeks exclusivos.</p>
+            <a href="#plans" class="cta">Escolha seu Plano</a>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2>Planos de Assinatura</h2>
+        <div class="plan-container">
+            <div class="plan-box">
+                <a href="basic-plan.html">
+                <img src="/foto01.jpg" alt="Plano Básico" href="basic-plan.html">
+                </a>
+                <h3>Plano Básico</h3>
+                <p>Receba 3 itens exclusivos todo mês.</p>
+                <p><strong>R$ 49,90/mês</strong></p>
+                <a href="basic-plan.html" class="cta">Assinar</a>
+            </div>
+            <div class="plan-box">
+                <a href="premium-plan.html">
+                    <img src="/foto02.jpg" alt="Plano Premium" href="premium-plan.html">
+                </a>
+                <h3>Plano Premium</h3>
+                <p>Receba 5 itens exclusivos todo mês, incluindo um item raro.</p>
+                <p><strong>R$ 89,90/mês</strong></p>
+                <a href="premium-plan.html" class="cta">Assinar</a>
+            </div>
+            
+            <div class="plan-box">
+                <a href="ultimate-plan.html">
+                <img src="/foto03.webp" alt="Plano Ultimate" a="ultimate-plan.html">
+                </a>
+                <h3>Plano Ultimate</h3>
+                <p>Receba 7 itens exclusivos todo mês, incluindo dois itens raros e uma edição limitada.</p>
+                <p><strong>R$ 149,90/mês</strong></p>
+                <a href="ultimate-plan.html" class="cta">Assinar</a>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mystery Box Geek. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
